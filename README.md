@@ -12,6 +12,22 @@ It converts gray scale image to LAB color space.
 It also uses skip connections from encoder layers to decoder layers to avoid the problem of vanishing gradients and so that gradient can backpropogate faster.
 
 
+## Model Details
+totals params= 100k
+Loss function: MSE
+Optimiser: RMSprop
+output activation: Sigmoid
+
+# Examples
+Input | output
+:------------:|:-----------:
+<img src="readme_img/1i.png"/>| <img src="readme_img/1o.png"/>
+<img src="readme_img/2i.png"/>| <img src="readme_img/2o.png"/>
+<img src="readme_img/3i.png"/>| <img src="readme_img/3o.png"/>
+<img src="readme_img/4i.png"/>| <img src="readme_img/4o.png"/>
+<img src="readme_img/5i.png"/>| <img src="readme_img/5o.png"/>
+<img src="readme_img/6i.png"/>| <img src="readme_img/6o.png"/>
+
 
 
 
